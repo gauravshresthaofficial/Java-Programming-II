@@ -1,6 +1,4 @@
 
-
-
 # Java Programming II
 
 This repository contains code examples and projects related to Java Programming II.
@@ -14,6 +12,7 @@ This repository contains code examples and projects related to Java Programming 
 - [SimpleForm](#simpleform)
 - [FileDialogExample](#filedialogexample)
 - [PanelExample](#panelexample)
+- [MessageDialogExample](#messagedialogexample)
 
 ## MenuExample
 
@@ -120,6 +119,21 @@ public class PanelExample extends Frame {
 }
 ```
 
+## MessageDialogExample
+
+The `MessageDialogExample` class demonstrates the usage of a message dialog box in AWT.
+
+```java
+package MenusBarsDialogBoxes;
+
+import java.awt.*;
+
+public class MessageDialogExample extends Frame {
+    // Code for MessageDialogExample class
+    // ...
+}
+```
+
 Feel free to explore the code examples and projects in this repository!
 
 ## Getting Started
@@ -141,29 +155,29 @@ To run these Java programs locally, you'll need to have Java Development Kit (JD
    javac *.java
    ```
 
-4. Run the compiled class file:
-   ```
-   java ClassName
-   ```
+4. Run the
 
-Replace `ClassName` with the name of the main class in the respective example or project.
+ program:
+   ```
+   java MenuExample
+   ```
 
 ## Contributing
 
-Contributions are welcome! If you have any improvements or new examples/projects to add, please follow these steps:
+If you'd like to contribute to this repository, you can follow these steps:
 
-1. Fork this repository
-
-.
+1. Fork the repository.
 2. Create a new branch with a descriptive name:
    ```
    git checkout -b feature/my-new-example
    ```
+
 3. Make your modifications and commit them.
 4. Push your changes to your forked repository:
    ```
    git push -u origin feature/my-new-example
    ```
+
 5. Open a pull request in this repository, describing the changes you made.
 
 ## License
@@ -171,4 +185,4 @@ Contributions are welcome! If you have any improvements or new examples/projects
 This repository is licensed under the [MIT License](LICENSE).
 ```
 
-Copy the above content and save it as `README.md` in your `shrestha-gaurav/Java-Programming-II` repository. Feel free to modify it further as per your requirements.
+You can copy and paste the above content into your `README.md` file in the `shrestha-gaurav/Java-Programming-II` repository. Feel free to modify it further as needed.
