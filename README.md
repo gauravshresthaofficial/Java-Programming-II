@@ -1,4 +1,3 @@
-
 # Java Programming II
 
 This repository contains code examples and projects related to Java Programming II.
@@ -141,20 +140,46 @@ public class MessageDialogExample extends Frame {
 
 The `NullLayout` class showcases the usage of the null layout manager, which allows manual positioning of components within a container.
 
-...
+```java
+package seca;
+
+import java.awt.*;
+
+public class Null_Layout extends Frame {
+    // Code for Null_Layout class
+    // ...
+}
+```
 
 ## FlowLayout
 
 The `FlowLayout` class demonstrates the usage of the flow layout manager, which arranges components in a left-to-right flow, wrapping to the next line as needed.
 
-...
+```java
+package seca;
+
+import java.awt.*;
+
+public class Flow_Layout extends Frame {
+    // Code for Flow_Layout class
+    // ...
+}
+```
 
 ## BorderLayout
 
 The `BorderLayout` class showcases the usage of the border layout manager, which divides the container into five regions: north, south, east, west, and center.
 
-...
+```java
+package seca;
 
+import java.awt.*;
+
+public class Border_Layout extends Frame {
+    // Code for Border_Layout class
+    // ...
+}
+```
 
 Feel free to explore the code examples and projects in this repository!
 
@@ -207,4 +232,4 @@ If you'd like to contribute to this repository, you can follow these steps:
 This repository is licensed under the [MIT License](LICENSE).
 ```
 
-You can copy and paste the above content into your `README.md` file in the `shrestha-gaurav/Java-Programming-II` repository. Feel free to modify it further as needed.
+You can copy and paste the above content into your `README.md` file in the `shrestha-gaurav/Java-Programming-II` repository.
