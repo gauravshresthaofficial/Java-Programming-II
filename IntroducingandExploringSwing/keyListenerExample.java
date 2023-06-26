@@ -33,8 +33,8 @@ public class keyListenerExample extends JFrame implements KeyListener {
        if(e.getKeyCode()==KeyEvent.VK_ENTER)
        {
            txtSecond.setText(txtFirst.getText());
-           txtFirst.requestFocus();
-           txtFirst.selectAll();
+           txtSecond.requestFocus();
+           txtSecond.selectAll();
        }
        
     }
